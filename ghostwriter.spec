@@ -7,12 +7,16 @@ License:	GPLv3+
 URL:		https://github.com/wereturtle/ghostwriter
 Source0:	https://github.com/wereturtle/ghostwriter/archive/v%{version}.tar.gz
 
+BuildRequires:	gcc
+BuildRequires:	gcc-c++
+BuildRequires:	hunspell-devel
+BuildRequires:	make
+BuildRequires:	pkconfig
 BuildRequires:	qt5-devel
 BuildRequires:	qt5-qtbase-devel
 BuildRequires:	qt5-qtsvg-devel
 BuildRequires:	qt5-qtwebkit-devel
 BuildRequires:	qt5-qtmultimedia-devel
-BuildRequires:	hunspell-devel
 
 Requires:	qt5-qtbase
 Requires:	qt5-qtwebkit
