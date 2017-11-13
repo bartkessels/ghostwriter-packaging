@@ -39,7 +39,7 @@ novel.
 %autosetup -p1
 
 %build
-qmake-qt5 PREFIX=%{_prefix}
+qmake-qt5 -makefile PREFIX=%{_prefix}
 make %{?_smp_mflags}
 
 %install
